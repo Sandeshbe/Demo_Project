@@ -4,7 +4,23 @@
 	<artifactId>Demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+
 	<dependencies>
+	
+	<dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <optional>true</optional>
+</dependency>
+
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -17,14 +33,13 @@
 			<version>7.6.1</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
-<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-<dependency>
-    <groupId>com.aventstack</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>5.0.9</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+		</dependency>
 
-	
 
 		<!-- https://mvnrepository.com/artifact/org.apache.maven/maven-plugin-api -->
 		<dependency>
@@ -48,7 +63,8 @@
 		</dependency>
 
 	</dependencies>
-	
+
+
 	<build>
 
 		<pluginManagement>
@@ -62,7 +78,9 @@
 						<useSystemClassLoader>false</useSystemClassLoader>
 						<suiteXmlFiles>
 							<suiteXmlFile>testng.xml</suiteXmlFile>
+
 						</suiteXmlFiles>
+
 					</configuration>
 
 
@@ -70,6 +88,6 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	
-	
+
+
 </project>
