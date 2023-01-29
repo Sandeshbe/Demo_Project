@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-29T13:47:29 IST" name="Default suite" finished-at="2023-01-29T13:48:08 IST" duration-ms="39565">
+    <groups>
+    </groups>
+    <test started-at="2023-01-29T13:47:29 IST" name="Default test" finished-at="2023-01-29T13:48:08 IST" duration-ms="39565">
+      <class name="demoProject.GetTitle">
+        <test-method is-config="true" signature="LaunchBroswer()[pri:0, instance:demoProject.GetTitle@35a3d49f]" started-at="2023-01-29T13:47:29 IST" name="LaunchBroswer" finished-at="2023-01-29T13:47:29 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBroswer -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:demoProject.GetTitle@35a3d49f]" started-at="2023-01-29T13:47:29 IST" name="startTest" finished-at="2023-01-29T13:47:32 IST" duration-ms="3105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="SubmitForm()[pri:1, instance:demoProject.GetTitle@35a3d49f]" started-at="2023-01-29T13:47:32 IST" name="SubmitForm" finished-at="2023-01-29T13:48:05 IST" duration-ms="32705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitForm -->
+        <test-method signature="OpenBookStoreApplication()[pri:2, instance:demoProject.GetTitle@35a3d49f]" started-at="2023-01-29T13:48:05 IST" name="OpenBookStoreApplication" finished-at="2023-01-29T13:48:08 IST" duration-ms="2869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBookStoreApplication -->
+        <test-method signature="PassedTestCase()[pri:3, instance:demoProject.GetTitle@35a3d49f]" started-at="2023-01-29T13:48:08 IST" name="PassedTestCase" finished-at="2023-01-29T13:48:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PassedTestCase -->
+        <test-method signature="FailedTestCase()[pri:4, instance:demoProject.GetTitle@35a3d49f]" started-at="2023-01-29T13:48:08 IST" name="FailedTestCase" finished-at="2023-01-29T13:48:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailedTestCase -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:demoProject.GetTitle@35a3d49f]" started-at="2023-01-29T13:48:08 IST" name="endTest" finished-at="2023-01-29T13:48:08 IST" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- demoProject.GetTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
